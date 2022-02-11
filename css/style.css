@@ -1,0 +1,128 @@
+*{
+        margin:0%;
+        padding:0
+}
+html {
+        background-image: url(../imagenes/paper.jpg);
+        min-height:100%;
+        background-size:cover;
+}
+
+.header {
+        display: flex; 
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: stretch;
+        flex-grow: 1;
+}
+
+
+.fondoTextoNegro {
+        background-color: black
+}
+.fondoTextoBlanco {
+        background-color: white
+}
+.fondoTextoGris {
+        background-color: gray
+}
+h1 {
+        text-align: center;
+}
+
+
+body table {
+        position: relative; text-align: center
+}
+footer {
+        position: relative; text-align: center
+}
+.italica {
+        font-style: italic;
+}
+.negrita {
+        font-weight: bold
+}
+.main_p {
+        font-size: 200%;
+        text-align: justify
+}
+
+.specialElite {
+        font-family: 'Special Elite', cursive;
+}
+
+.header {
+        display: flex;
+        flex-flow: column;
+        font-size: 50px; padding: 2px 20px; margin: 5px;
+}
+.header_nav {
+        display: inline-block;
+        list-style: none; 
+        justify-content: center;
+        align-items: stretch;
+}
+
+.footer{
+        display: flex; 
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: stretch;
+        flex-grow: 1;
+}
+.footer_li {
+        display: inline-block;
+        list-style: none;
+        width: 12%;
+        background-color: rgb(61, 61, 61);      
+}
+
+.grid {
+        display: grid;
+        grid-template-rows: 0.5fr 0.5fr 4fr 1fr;
+}
+.gridTienda {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "a b c""d e f""g h i""j k l"
+}
+.a {
+        grid-area:a;
+}
+.b {
+        grid-area:b;
+}
+.c {
+        grid-area:c;
+}
+.d {
+        grid-area: "d";
+}
+.e {
+        grid-area: "e";
+}
+.f {
+        grid-area: "f";
+}
+.g {
+        grid-area: "g";
+}
+.h {
+        grid-area: "h";
+}
+.i {
+        grid-area: "i";
+}
+.j {
+        grid-area: "j";
+}
+.k {
+        grid-area: "k";
+}
+.l {
+        grid-area: "l";
+}
+
+
